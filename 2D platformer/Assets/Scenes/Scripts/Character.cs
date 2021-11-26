@@ -10,6 +10,7 @@ public class Character : MonoBehaviour
     Rigidbody2D rib;
     Vector3 playermove;
     bool isJumping = false;
+    bool isFalling = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,8 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(isFalling);
+
         //움직임 애니메이션
         if (Input.GetAxisRaw("Horizontal") == 0)
         {
@@ -32,7 +35,7 @@ public class Character : MonoBehaviour
         }
 
         //점프
-        if (Input.GetButtonDown("Jump") && !animator.GetBool("isJumping"))
+        if (Input.GetButtonDown("Jump") && !animator.GetBool("isJumping") && !animator.GetBool("isFalling"))
         {
             isJumping = true;
             animator.SetTrigger("triggerJumping"); //점프 애니메이션
@@ -88,10 +91,16 @@ public class Character : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Attach : " + other.gameObject.layer);
-        if (other.gameObject.layer == 6 || other.gameObject.layer == 7) //그라운드 또는 몹에 닿았을 때
         {
-            if(rib.velocity.y < 0) // 플레이어가 하강 중일 때
-            animator.SetBool("isJumping", false);
+            if (other.gameObject.layer == 6 || other.gameObject.layer == 7) //그라운드 또는 몹에 닿았을 때
+            {
+                if (rib.velocity.y < 0) // 플레이어가 하강 중일때
+                    animator.SetBool("isJumping", false);
+            }
+
+
+
+
         }
     }
 
