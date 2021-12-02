@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 12077122}
   - component: {fileID: 12077124}
   - component: {fileID: 12077123}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 48739770}
   - component: {fileID: 48739772}
   - component: {fileID: 48739771}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 302740073}
   - component: {fileID: 302740075}
   - component: {fileID: 302740074}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,13 +351,13 @@ GameObject:
   - component: {fileID: 320212785}
   - component: {fileID: 320212784}
   - component: {fileID: 320212783}
-  m_Layer: 6
-  m_Name: Red cliff bacKground
+  m_Layer: 0
+  m_Name: light background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &320212783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ RectTransform:
   - {fileID: 810423789}
   - {fileID: 12077122}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 452096037}
   - component: {fileID: 452096039}
   - component: {fileID: 452096038}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,78 +517,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452096036}
   m_CullTransparentMesh: 1
---- !u!1 &478816007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 478816009}
-  - component: {fileID: 478816008}
-  m_Layer: 0
-  m_Name: Freeform Light 2D
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &478816008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478816007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LightType: 1
-  m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000
-  m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
-  m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0
-  m_ShadowVolumeIntensity: 0
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
-  m_PointLightDistance: 3
-  m_PointLightQuality: 1
-  m_ShapeLightParametricSides: 5
-  m_ShapeLightParametricAngleOffset: 0
-  m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
-  m_ShapeLightFalloffOffset: {x: 0, y: 0}
-  m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
---- !u!4 &478816009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478816007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.5048304, y: -1.3934796, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +664,7 @@ GameObject:
   - component: {fileID: 589290265}
   - component: {fileID: 589290267}
   - component: {fileID: 589290266}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,6 +725,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589290264}
   m_CullTransparentMesh: 1
+--- !u!1 &619694975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 619694976}
+  m_Layer: 0
+  m_Name: bullet pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &619694976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619694975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 656115582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656115580
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +770,7 @@ GameObject:
   - component: {fileID: 656115584}
   - component: {fileID: 656115586}
   - component: {fileID: 656115587}
+  - component: {fileID: 656115588}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -878,9 +837,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656115580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 2, z: 0}
+  m_LocalPosition: {x: 4, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 619694976}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -990,6 +950,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.2}
   m_EdgeRadius: 0
+--- !u!114 &656115588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656115580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f905f41895ccc4783617ccb7f57b3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1015506539582734, guid: 38fc5f4c8bae8654796fa0dd9fd6ae37, type: 3}
+  pos: {fileID: 619694976}
+  cooltime: 0.3
 --- !u!1 &810423788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,7 +976,7 @@ GameObject:
   - component: {fileID: 810423789}
   - component: {fileID: 810423791}
   - component: {fileID: 810423790}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1077,7 +1052,7 @@ GameObject:
   - component: {fileID: 818489124}
   m_Layer: 7
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1224,7 +1199,7 @@ GameObject:
   - component: {fileID: 1059707034}
   - component: {fileID: 1059707036}
   - component: {fileID: 1059707035}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,8 +1272,8 @@ GameObject:
   - component: {fileID: 1079633436}
   - component: {fileID: 1079633435}
   - component: {fileID: 1079633434}
-  m_Layer: 6
-  m_Name: Red cliff night bacKground
+  m_Layer: 0
+  m_Name: night background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,7 +1360,7 @@ RectTransform:
   - {fileID: 589290265}
   - {fileID: 1326177850}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2820,7 +2795,7 @@ GameObject:
   - component: {fileID: 1326177850}
   - component: {fileID: 1326177852}
   - component: {fileID: 1326177851}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff4 night stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2892,7 +2867,7 @@ GameObject:
   - component: {fileID: 1360377269}
   - component: {fileID: 1360377271}
   - component: {fileID: 1360377270}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2964,7 +2939,7 @@ GameObject:
   - component: {fileID: 1445600503}
   - component: {fileID: 1445600505}
   - component: {fileID: 1445600504}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3036,7 +3011,7 @@ GameObject:
   - component: {fileID: 1588229459}
   - component: {fileID: 1588229461}
   - component: {fileID: 1588229460}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3108,7 +3083,7 @@ GameObject:
   - component: {fileID: 1820245935}
   - component: {fileID: 1820245937}
   - component: {fileID: 1820245936}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4552,7 +4527,7 @@ GameObject:
   - component: {fileID: 1912525310}
   - component: {fileID: 1912525312}
   - component: {fileID: 1912525311}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4669,7 +4644,7 @@ GameObject:
   - component: {fileID: 2056458402}
   - component: {fileID: 2056458404}
   - component: {fileID: 2056458403}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4741,7 +4716,7 @@ GameObject:
   - component: {fileID: 2062364290}
   - component: {fileID: 2062364292}
   - component: {fileID: 2062364291}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: red cliff night cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
